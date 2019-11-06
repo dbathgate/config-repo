@@ -1,2 +1,2 @@
 test:
-  value: ${vcap.services.drb-creds.credentials.mysecret}
+  value: ${vcap.services.drb-creds.credentials.mysecret:default value}

@@ -1,6 +1,0 @@
-# test:
-#   value: ${vcap.services.drb-creds.credentials.mysecret:default value}
-
-test:
-  username: ${vcap.services.test-creds.credentials.username:default value}
-  password: ${vcap.services.test-creds.credentials.password:default value}
